@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CookingApp</string>
+    <string name="title_shop">Home</string>
+    <string name="title_gifts">Notifi</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_week">Top week</string>
+    <string name="title_search">Search</string>
+    <integer name="swing_anim_time">750</integer>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

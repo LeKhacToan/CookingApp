@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ShowDish">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+       >
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/idImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test"/>
+        <TextView
+            android:id="@+id/nameDish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Bánh quế"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textSize="35dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+           >
+            <TextView
+                android:id="@+id/idAuth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="18dp"
+                android:text="lê khắc toàn"/>
+            <TextView
+                android:id="@+id/idTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="30 phút"
+               android:layout_alignParentRight="true"/>
+            <TextView
+                android:id="@+id/idServing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_centerInParent="true"
+                android:text="5 người"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Mô tả: "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:id="@+id/idDescription"
+            android:text="Bánh quế cuộn là món ăn vặt được rất nhiều người yêu thích bởi hương vị béo thơm của bơ và vani, hơn nữa cảm giác bánh giòn tan trong miệng nên được hầu hết mọi người chọn cho những bữa ăn vặt. Các bạn cũng có thể tự tay làm cho mình và để tặng những người thân yêu món bánh quế cuộn đẹp mắt và hấp dẫn này với công thức rất đơn giản và dễ làm."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Nguyên liệu: "/>
+        <TextView
+            android:id="@+id/idNl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:text="500 gr Bột mì \n 5 gr Men nở \n150 gr Nhân đậu đỏ \n280 ml Nước ấm\n280 gr Đường trắng \n50l Dầu ăn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Bước thực hiện:"/>
+        <TextView
+            android:id="@+id/idStep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="
+Đổ 500g bột mì vào thố lớn, thêm 280ml nước ấm, 5g men, 8g đường trắng, dùng đũa khuấy đều. Sau đó dùng tay nhồi bột bánh bao thành khối đồng nhất, bọc màng thực phẩm, và đặt nó ở một nơi ấm áp để lên men.\n
+Khi kích thước bột sau khi ủ nở gấp đôi thì kéo bột ra, nhồi sơ qua ít phút. Chia khối bột thành những phần nhỏ đều nhau. Cán mỏng dẹp, sau đó cho nhân đậu đỏ (ngào mật ong) vào giữa, gói kín lại như hình. Rồi ấn cho hơi dẹp xuống.\n
+
+Đun nóng chảo nướng điện, phết đều một lớp dầu ăn mỏng bằng cọ quét, đặt các chiếc bánh bao đã bọc nhân đậu đỏ vào chiên áp chảo khoảng 2 phút mỗi mặt (đậy kín nắp vung trong quá trình chiên). "/>
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

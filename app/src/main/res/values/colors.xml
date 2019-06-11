@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#598fe5</color>
+    <color name="colorPrimaryDark">#3d72c6</color>
+    <color name="colorAccent">#4581e0</color>
+    <color name="bgBottomNavigation">#598fe5</color>
+    <color name="colorUserName">#d5d9e0</color>
+    <color name="colorError">#ff0000</color>
+    <color name="favorite">#ed4949</color>
+</resources>
